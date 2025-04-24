@@ -6,5 +6,12 @@ namespace TechCommerce_API.Controllers
 	[Route("[controller]")]
 	public class ProdutoController : ControllerBase
 	{
+
+		[HttpGet]
+		public IActionResult GetProdutos()
+		{
+			return Ok();
+		}
+
 	}
 }

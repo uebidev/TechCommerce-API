@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35913.81 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechCommerce API", "TechCommerce API\TechCommerce API.csproj", "{66825CEE-868A-4152-BB25-77CDB19B821C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechCommerce.API", "TechCommerce API\TechCommerce.API.csproj", "{66825CEE-868A-4152-BB25-77CDB19B821C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{AA6E4176-1AB5-4BB1-B602-743D56D51EB8}"
 EndProject

@@ -10,11 +10,12 @@ namespace Infrastructure.Data.Context
 {
 	public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 	{
-		DbSet<Produto> Produtos { get; set; }
-		DbSet<Categoria> Categorias { get; set; }
-		DbSet<Fornecedor> Fornecedores { get; set; }
-		DbSet<Avaliacao> Avaliacoes { get; set; }
-		DbSet<Venda> Vendas { get; set; }
-		DbSet<ItemVenda> ItemVendas { get; set; }
+		public DbSet<Produto> Produtos { get; set; }
+		public DbSet<Categoria> Categorias { get; set; }
+		public DbSet<Fornecedor> Fornecedores { get; set; }
+		public DbSet<Avaliacao> Avaliacoes { get; set; }
+		public DbSet<Venda> Vendas { get; set; }
+		public DbSet<ItemVenda> ItemVendas { get; set; }
+		public DbSet<Cliente> Clientes { get; set; }
 	}
 }
